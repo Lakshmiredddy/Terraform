@@ -1,6 +1,6 @@
 # Terraform
 
-✅ Benefits of Infrastructure as Code (IaC)
+## ✅ Benefits of Infrastructure as Code (IaC):
 Version Control
 Enables:
 
