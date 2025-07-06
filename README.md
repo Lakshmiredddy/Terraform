@@ -76,5 +76,9 @@
    terraform apply           # Apply changes
    terraform apply -auto-approve  # Apply without manual approval
    ```
+  ## Terraform variables:
+  To store the values we can use wherver we want. It is DRY prinicple
+   
+   ```
 
 
