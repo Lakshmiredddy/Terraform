@@ -48,4 +48,33 @@
    ```
 
 ---
+## 🚀 Getting Started with Terraform & AWS
+
+1. **Create Terraform GitHub Repo**
+   ```bash
+   git clone <your_repo_url>
+   cd terraform/
+   ```
+
+2. **Define Provider Configuration (`provider.tf`)**
+   Example for AWS:
+   ```hcl
+   provider "aws" {
+     region = "us-east-1"
+   }
+   ```
+
+3. **Configure AWS CLI**
+   ```bash
+   aws configure
+   ```
+
+4. **Terraform Commands**
+   ```bash
+   terraform init            # Initialize the project
+   terraform plan            # Show what will be created/changed
+   terraform apply           # Apply changes
+   terraform apply -auto-approve  # Apply without manual approval
+   ```
+
 
